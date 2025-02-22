@@ -1,0 +1,32 @@
+{
+  "name": "flomo-to-markdown",
+  "version": "1.0.0",
+  "description": "Convert Flomo HTML export to Markdown files",
+  "main": "convert.js",
+  "scripts": {
+    "start": "node convert.js"
+  },
+  "keywords": [
+    "flomo",
+    "markdown",
+    "converter",
+    "note-taking"
+  ],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.4.0",
+  "dependencies": {
+    "cheerio": "^1.0.0",
+    "moment": "^2.30.1"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leon-zym/flomo-to-markdown.git"
+  },
+  "bugs": {
+    "url": "https://github.com/leon-zym/flomo-to-markdown/issues"
+  }
+}
