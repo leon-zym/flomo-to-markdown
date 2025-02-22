@@ -76,7 +76,7 @@ memoStats.forEach(({ count: totalCount, memos }, date) => {
             // Handle unordered lists
             $content.find('ul').each((_, ul) => {
                 $(ul).find('li').each((_, li) => {
-                    markdownParts.push(`• ${$(li).text().trim()}`);
+                    markdownParts.push(`- ${$(li).text().trim()}`);
                 });
                 markdownParts.push('');
             });
